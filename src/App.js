@@ -73,21 +73,23 @@ class App extends Component {
   }
 
   controlPeriod = (event) => {
+    const {hourlyPeriod, dailyPeriod} = this.state;
+
     switch (event.target.className) {
       case 'prev-hour':
-        let minusHour = this.state.hourlyPeriod - 1;
+        let minusHour = hourlyPeriod - 1;
         this.setState({ hourlyPeriod: minusHour });
         break;
       case 'next-hour':
-        let plusHour = this.state.hourlyPeriod + 1;
+        let plusHour = hourlyPeriod + 1;
         this.setState({ hourlyPeriod: plusHour });
         break;
       case 'prev-day':
-        let minusDay = this.state.dailyPeriod - 1;
+        let minusDay = dailyPeriod - 1;
         this.setState({ dailyPeriod: minusDay });
         break;
       case 'next-day':
-        let plusDay = this.state.dailyPeriod + 1;
+        let plusDay = dailyPeriod + 1;
         this.setState({ dailyPeriod: plusDay });
         break;
       default: return;
