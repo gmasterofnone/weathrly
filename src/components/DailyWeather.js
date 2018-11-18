@@ -4,9 +4,9 @@ import Controller from './Controller';
 import WeatherIcons from '../assets/WeatherIcons';
 
 const dailyWeather = (props) => {
+  
   return (
     <div className='main'>
-    
       <header>
         <article className='left-header'>
           <Controller

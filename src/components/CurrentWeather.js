@@ -5,7 +5,7 @@ import WeatherIcons from '../assets/WeatherIcons';
 
 
 const CurrentWeather = (props) => {
-  // console.log(props.location);
+
   return (
     <div className='main'>
     <header>
