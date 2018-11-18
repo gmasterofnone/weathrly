@@ -17,7 +17,6 @@ describe("App", () => {
 
   it("should exist", () => {
     expect(wrapper).toBeDefined();
-    console.log(wrapper.state.trie)
   });
 
   it("should render the HourlyWeather, DailyWeather, and CurrentWeather components", () => {
