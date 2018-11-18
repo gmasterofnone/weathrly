@@ -8,7 +8,7 @@ Simple yet elegant app to track the weather wherever you go.
 * Auto IP location lookup if user does not enter an address
 * Tested with Enzyme & Jest / Mocha & Chai
 
-
+## Demo
 [![Weathrly Demo](https://img.youtube.com/vi/3pmFzPAUyQw/0.jpg)](https://www.youtube.com/watch?v=3pmFzPAUyQw)
 
 
