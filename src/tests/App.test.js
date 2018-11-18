@@ -1,8 +1,7 @@
 import React from "react";
-import ReactDOM from 'react-dom'
-import { shallow, mount } from "enzyme";
-import App from "./App";
-import Trie from './Trie';
+import { shallow } from "enzyme";
+import App from "../components/App";
+import Trie from '../utils/Trie';
 
 describe("App", () => {
   let wrapper;

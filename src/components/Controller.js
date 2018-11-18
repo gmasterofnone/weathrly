@@ -1,7 +1,7 @@
 import React from 'react';
 
 import './Controller.css';
-// 
+
 const Controller = (props) => {
     return ( 
       <section className='controller'>

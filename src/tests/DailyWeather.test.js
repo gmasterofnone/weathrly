@@ -1,8 +1,7 @@
 import React from "react";
-import ReactDOM from 'react-dom'
-import { shallow, mount } from "enzyme";
-import DailyWeather from "./DailyWeather";
-import mockData from './MockData'
+import { shallow } from "enzyme";
+import DailyWeather from "../components/DailyWeather";
+import mockData from '../utils/MockData'
 
 describe("DailyWeather", () => {
   let wrapper;

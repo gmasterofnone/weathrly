@@ -1,10 +1,10 @@
 import React from 'react';
 
 import Controller from './Controller';
-import WeatherIcons from './WeatherIcons';
+import WeatherIcons from '../assets/WeatherIcons';
 
 const hourlyWeather = (props) => {
-  // console.log(props)
+
   return (
     <div className='main'>
       <header>
@@ -26,7 +26,6 @@ const hourlyWeather = (props) => {
               props.hourPeriod < 10 &&
               <button onClick={props.controlPeriod} className='next-hour'>+</button>
             }
-
           </div>
         </article>
         <article className='right-header'>

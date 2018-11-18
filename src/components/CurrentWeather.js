@@ -1,11 +1,11 @@
 import React from 'react';
 
 import Controller from './Controller';
-import WeatherIcons from './WeatherIcons';
+import WeatherIcons from '../assets/WeatherIcons';
 
 
 const CurrentWeather = (props) => {
-  // console.log(props.location);
+
   return (
     <div className='main'>
     <header>

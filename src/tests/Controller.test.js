@@ -1,7 +1,6 @@
 import React from "react";
-import ReactDOM from 'react-dom'
-import { shallow, mount } from "enzyme";
-import Controller from "./Controller";
+import { shallow } from "enzyme";
+import Controller from "../components/Controller";
 
 describe("Controller", () => {
   let wrapper;
