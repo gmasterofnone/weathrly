@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from 'react-dom'
 import { shallow, mount } from "enzyme";
 import App from "./App";
-import Trie from './Trie';
+import Trie from '../Trie';
 
 describe("App", () => {
   let wrapper;

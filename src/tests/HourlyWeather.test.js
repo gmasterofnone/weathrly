@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from 'react-dom'
 import { shallow, mount } from "enzyme";
 import HourlyWeather from "./HourlyWeather";
-import mockData from './MockData'
+import mockData from '../utils/MockData'
 
 describe("HourlyWeather", () => {
   let wrapper;

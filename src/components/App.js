@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 import './App.css';
-import Trie from '../Trie';
+import Trie from '../utils/Trie';
 import CurrentWeather from './CurrentWeather';
 import HourlyWeather from './HourlyWeather';
 import DailyWeather from './DailyWeather';
