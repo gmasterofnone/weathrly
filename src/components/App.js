@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 
 import './App.css';
-import Trie from './Trie';
+import Trie from '../Trie';
 import CurrentWeather from './CurrentWeather';
 import HourlyWeather from './HourlyWeather';
 import DailyWeather from './DailyWeather';
-import cityData from './CityData.js';
-import APIKey from './APIKey'
+import cityData from '../utils/CityData.js';
+import APIKey from '../utils/APIKey'
 
 class App extends Component {
   constructor() {

@@ -1,7 +1,7 @@
 import React from 'react';
 
 import Controller from './Controller';
-import WeatherIcons from './WeatherIcons';
+import WeatherIcons from '../assets/WeatherIcons';
 
 const dailyWeather = (props) => {
   return (

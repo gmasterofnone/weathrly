@@ -1,10 +1,9 @@
 import React from 'react';
 
 import Controller from './Controller';
-import WeatherIcons from './WeatherIcons';
+import WeatherIcons from '../assets/WeatherIcons';
 
 const hourlyWeather = (props) => {
-  // console.log(props)
   return (
     <div className='main'>
       <header>
