@@ -1,7 +1,6 @@
 import React from "react";
-import ReactDOM from 'react-dom'
-import { shallow, mount } from "enzyme";
-import CurrentWeather from "./CurrentWeather";
+import { shallow } from "enzyme";
+import CurrentWeather from "../components/CurrentWeather";
 import mockData from '../utils/MockData'
 
 describe("CurrentWeather", () => {
