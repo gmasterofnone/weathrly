@@ -20,10 +20,6 @@ button:focus {
   font-weight: 300;
 }
 
-option {
-
-}
-
 input::-webkit-calendar-picker-indicator {
   display: none;
 }
